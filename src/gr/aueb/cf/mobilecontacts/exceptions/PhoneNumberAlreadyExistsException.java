@@ -1,8 +1,12 @@
 package gr.aueb.cf.mobilecontacts.exceptions;
 
-public class PhoneNumberAlreadyExistsException extends  Exception {
+import java.io.Serial;
 
-    public PhoneNumberAlreadyExistsException (String message) {
+public class PhoneNumberAlreadyExistsException extends Exception {
+    @Serial
+    private static final long serialVersionUID = 1L;
+
+    public PhoneNumberAlreadyExistsException(String message) {
         super(message);
     }
 }

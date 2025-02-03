@@ -5,7 +5,7 @@ public class MobileContactUpdateDTO extends BaseDTO {
     private String lastname;
     private String phoneNumber;
 
-    public MobileContactUpdateDTO () {
+    public MobileContactUpdateDTO() {
 
     }
 

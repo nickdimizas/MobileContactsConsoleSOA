@@ -5,7 +5,7 @@ public class MobileContactReadOnlyDTO extends BaseDTO {
     private String lastname;
     private String phoneNumber;
 
-    public MobileContactReadOnlyDTO () {
+    public MobileContactReadOnlyDTO() {
 
     }
 

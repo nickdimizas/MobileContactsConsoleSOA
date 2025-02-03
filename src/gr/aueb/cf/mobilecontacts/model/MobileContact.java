@@ -47,6 +47,7 @@ public class MobileContact extends AbstractEntity {
         return "Firstname: " + firstname + ", Lastname: " + lastname + ", Phone Number: " + phoneNumber;
     }
 
+
     @Override
     public boolean equals(Object other) {
         if (this == other) return true;
